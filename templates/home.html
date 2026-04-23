@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="homepage">
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="{{ url_for('predict_res') }}">predict</a>
+            <a href="contact/">Contact</a>
+        </nav>
+        <div class="intro">
+            <p style="color: #081f38 ;font-size: 70px;">Classification of insects</p>
+            <h4 style="color: #081f38 ;">"Insect invasions in crops lead to <br>massive losses, not only in terms of <br>harvests but also in terms of resources <br>spent on pest control." <br><span style="font-size: 20px;">-Food and Agriculture Organization (FAO)</span></h4>
+        </div>
+    </div>
+     <div class="textarea">
+        <p><h1>Insect classification </h1>involves forecasting the yield or output of agricultural crops for a given time period, typically a growing season. It's a crucial aspect of agricultural planning, as it helps farmers, policymakers, and other stakeholders make informed decisions regarding planting, harvesting, marketing, and resource allocation. Crop prediction relies on a combination of historical data, statistical models, remote sensing technologies, and sometimes machine learning algorithms to estimate future crop yields.
+        <br>
+        <br>
+        <h1>Insect classification using Deep learning </h1>
+
+        
+        
+        <h3>Abstract:</h3> For most developing countries, agriculture is their primary source of revenue.
+Modern agriculture is a constantly growing approach for agricultural advances and farming
+techniques. It becomes challenging for the farmers to satisfy our planet's evolving requirements
+and the expectations of merchants, customers, etc. Some of the challenges the farmers face are-
+(i) Dealing with climatic changes because of soil erosion and industry emissions (ii) Nutrient
+deficiency in the soil, caused by a shortage of crucial minerals such as potassium, nitrogen, and
+phosphorus can result in reduced crop growth. (iii) Farmers make a mistake by cultivating the
+same crops year after year without experimenting with different varieties. They add fertilizers
+randomly without understanding the inferior quality or quantity. The paper aims to discover the
+best model for crop prediction, which can help farmers decide the type of crop to grow based
+on the climatic conditions and nutrients present in the soil. This paper compares popular
+algorithms such as K-Nearest Neighbor (KNN), Decision Tree, and Random Forest Classifier
+using two different criterions Gini and Entropy. Results reveal that Random Forest gives the
+highest accuracy among the three
+        Farmers are faced with the challenge of producing sufficient crops to meet growing consumer demand while maintaining the quality and quantity of resources for future generations. Scientists at the U.S. Department of Agriculture are developing research-based technologies to help farmers increase productivity and production efficiency while practicing sustainable agriculture.   
+       
+       <br>
+        <h1> Methodology</h1>
+        <h3>Feature selection</h3>
+        Datasets contain redundant information that harms the classification task. Feature selection is a major task in data analytic research, where datasets have a large number of attributes [Citation26]. Feature selection is chiefly used because (i) it allows the machine learning algorithm to train faster, (ii) it decreases the complexity of the model, and (iii) it makes interpretation easier [Citation26]. It also maximizes the model’s accuracy when choosing the right subset, and prevents overfitting. Three types of feature selection methods are used in the selection of attributes: filter, wrapper, and embedded. Of these, the filter and wrapper methods are primarily used to choose the best attributes. Filter methods are based on performance assessment functions such as distance, knowledge, dependence and consistency, derived directly from the training data. Attribute subsets are selected without resorting to the use of a learning algorithm. Wrapper methods require a predetermined learning algorithm, and use performance as the criterion for assessment. They find attributes that are best suited to the learning algorithm so as to improve performance. The wrapper method typically performs better than the filter method but is more computationally expensive. Nonetheless, wrappers yield feature subsets tailored only for a given learning algorithm, which means that the same subset may not be appropriate for use elsewhere. Embedded methods combine filter and wrapper methods, and use an attribute selection process of their own. This work focuses on wrapper feature selection techniques, such as the following, to choose the best attributes from the original dataset. The techniques are applied to select the best attributes from the soil and environment
+<h1>Importance of Crop </h1>
+Field and forage (agronomic) crops are grown on most of the 200 million acres of harvested cropland in the United States. Agronomic crops provide the food, feed grain, oil, and fiber for domestic consumption and are a major component of U.S. export trade. Horticultural plants — those grown specifically for human use — offer variety to human diets and enhance the living environment.
+
+<h1>NIFA’s Impact</h1>
+NIFA programs are working to increase crop production while maintaining the environment by providing services such as:
+
+Conducting research on issues that affect horticultural breeding, growth, and production
+Improving productivity of field and forage crops
+Ensuring sound use of natural resources, reducing soil erosion, and improving soil quality
+Implementing newly developed and tested methods that improve soil on both conventional and organic farms
+Reviving heirloom varieties of crops while  developing new varieties
+Helping farmers plant crops suitable to local and regional climate and crop management needs
+        </p>
+    <!-- <h3>Want to know more about  <a href="https://www.cropin.com/">visit--> 
+
+     </div>
+     <footer id="foot"> &#169 this project is made with 	&#9829; right</footer>
+    
+
+     <br>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>predict result</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="homepage2">
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/predict">Prediction</a>
+            <a href="contact/">Contact</a>
+        </nav>
+        <div class="intro">
+            <p style="color: #081f38 ;font-size: 70px;">Classification of insects</p>
+            <h4 style="color: #081f38 ;">"Insect invasions in crops lead to <br>massive losses, not only in terms of <br>harvests but also in terms of resources <br>spent on pest control." <br><span style="font-size: 20px;">-Food and Agriculture Organization (FAO)</span></h4>
+        </div>
+
+
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <!-- <input type="file" name="image" accept="image/*" required> -->
+            <!-- <button type="submit">Predict</button> -->
+            <button type="submit" class="stylish-button">Predict</button>
+            <label for="file-upload" class="stylish-button">Choose File</label>
+            <input type="file" id="file-upload" name="file">
+
+        </form>
+
+
+
+    </div>
+     <div class="textarea">
+        
+
+        
+
+        <h1>Prediction Result</h1>
+        <p>The uploaded insect image is predicted to be: <strong>{{ prediction }}</strong></p>
+    
+        <!-- Display the uploaded image -->
+        <img src="{{ url_for('send_uploaded_file', filename=image_file) }}" alt="Uploaded Image">
+        
+        <a href="/">Predict Another Image</a>
+        
+        
+
+
+
+     </div>
+     <footer id="foot"> &#169 this project is made with 	&#9829; right</footer>
+     
+        
+    
+
+     <br>
+</body>
+</html>

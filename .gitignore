@@ -1,0 +1,12 @@
+# Ignore datasets
+dataset/
+data/
+
+# Ignore models
+*.h5
+*.pt
+*.pkl
+
+# Ignore system files
+__pycache__/
+*.pyc

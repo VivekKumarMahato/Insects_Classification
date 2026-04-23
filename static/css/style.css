@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+.homepage{
+    background-image: url("/static/images/butterfly-2.jpg");
+    width: 100%;
+    height: 590px;
+    background-size:cover;
+}
+.homepage2{
+    background-image: url("/static/images/pexels4.jpg");
+    width: 100%;
+    height: 590px;
+    background-size:cover;
+}
+.navbar {
+      background-color: #1e255a;
+      height: 55px;
+      width: 100%;
+}
+.navbar a {
+  text-align:right;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(8, 18, 27);
+  text-decoration: none;
+  margin-left: 70px;
+}
+.container-of-contact{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* background-color: rgb(86, 155, 160); */
+  background-image: url("/static/images/crop5.jpg");
+  background-size: cover;
+}
+.contactform{
+  width: 40%;
+  padding: 40px;
+ 
+}
+.contactform h2{
+  font-size: 30px;
+  columns: #333;
+  font-weight: 500;
+}
+.inputbox{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.inputbox label{
+  font-size: 21px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333 ;
+  outline:none ;
+  resize: none;
+}
+
+
+@media (max-width:991px)
+{
+  .contact{
+    padding: 50px;
+  }
+  .container-of-contact{
+    flex-direction: column;
+  }
+  .container-of-contact .contactinfo{
+    margin-bottom: 40px;
+
+  }
+  .container-of-contact .contactinfo,.contactform{
+    width: 100%;
+  }
+}
+
+
+.button{
+    font-size: 30px;
+}
+.intro h1{
+    margin-top: 70px;
+    font-size:100px;
+    color: aliceblue;
+   
+}
+.intro h4{
+    font-size:30px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+.highlight-blue {
+    background-color: #1e255a;
+    padding: 0 6px;
+  }
+   
+.textarea{
+    position: absolute;
+    left: 300px;
+    width: 60%;
+    margin-top:18px;
+    margin-bottom: 20px;
+    /* background-color: rgb(145, 148, 146); */
+}
+.textarea h3{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#foot{
+    position: absolute;
+    top: 2130px;
+    color: white;
+    height: 450px;
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    width: 100%;
+    margin-top:10px;
+    font-size: 30px;
+}
+.logo{
+  position:absolute;
+  top: 2200px;
+  margin-left: 400px;
+  
+}
+.box{
+  
+  padding: 20px 0;
+  display: flex;
+}
+.icons{
+
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: white;
+  }
+  .text{
+    display: flex;
+  margin-left: 20px;
+  font-size: 20px;
+  color:white;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.stylish-button {
+  background-color: #19a1e4; 
+  color: white; 
+  padding: 15px 30px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+.stylish-button:hover {
+  background-color: #19a1e4; 
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+.stylish-button:active {
+  transform: scale(1); 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+.stylish-button{
+  position: relative;
+  left: 750px;
+  top: 20px;
+}
+
+
+
+.stylish-button1 {
+  background-color: #19a1e4; 
+  color: white; 
+  padding: 15px 30px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+.stylish-button1:hover {
+  background-color: #19a1e4; 
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+.stylish-button1:active {
+  transform: scale(1); 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+.stylish-button1{
+  position: relative;
+  left: 380px;
+  top: 70px;
+}
+
+
+
