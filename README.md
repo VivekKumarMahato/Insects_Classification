@@ -102,7 +102,7 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
 **Vivek Kumar**
 
-* GitHub: https://github.com/your-username
+* GitHub: https://github.com/VivekKumarMahato
 
 ---
 
